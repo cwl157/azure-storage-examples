@@ -24,10 +24,10 @@ namespace MusicManager.App
 
             IFileAccess azureFileAccess = new AzureFileAccess(Constants.AzureFileConnectionString, Constants.AzureFileShareName);
             IFileAccess localFileAccess = new LocalFileAccess();
-            //IAlbumRepository repository = new SqlRepository(Constants.DbConnectionString);
-            //IAlbumRepository repository = new JsonRepository(Constants.AzureFileFilepath, azureFileAccess);
+            IAlbumRepository repository = new SqlRepository(Constants.DbConnectionString);
+           // IAlbumRepository repository = new JsonRepository(Constants.AzureFileFilepath, azureFileAccess);
             //IAlbumRepository repository = new JsonRepository(Constants.LocalFilePath, localFileAccess);
-            IAlbumRepository repository = new CosmosRepository(Constants.CosmosEndpointUri, Constants.CosmosPrimaryKey, Constants.CosmosDatabaseId, Constants.CosmosContainerId);
+            //IAlbumRepository repository = new CosmosRepository(Constants.CosmosEndpointUri, Constants.CosmosPrimaryKey, Constants.CosmosDatabaseId, Constants.CosmosContainerId);
 
             while (input != "9")
             {
