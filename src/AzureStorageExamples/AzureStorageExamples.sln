@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageExamples.BlobWithIAM", "AzureStorageExamples.BlobWithIAM\AzureStorageExamples.BlobWithIAM.csproj", "{BCA140A3-D0B2-457B-A40F-C59106D2BE04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA140A3-D0B2-457B-A40F-C59106D2BE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA140A3-D0B2-457B-A40F-C59106D2BE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA140A3-D0B2-457B-A40F-C59106D2BE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA140A3-D0B2-457B-A40F-C59106D2BE04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66EF1169-9364-43A2-89FC-15349EF4EBCB}
+	EndGlobalSection
+EndGlobal
