@@ -3,4 +3,4 @@ Example of different azure storage options with a CRUD-like app. The current sto
 # Setup
 Update ConfigConstants.cs with values from your Azure AD and storage resources.
 # The application
-The example application creates blob containers, downloads blobs, and uploads blobs to a storage account. The app is authenticated to Azure Storage using an Azure AD app registration and RBAC permissions.
+The example application creates blob containers, downloads blobs, and uploads blobs to a storage account. The app is authenticated to Azure Storage using an Azure AD app registration and RBAC permissions. There is a blog post with details https://www.carlserver.com/blog/post/use-azure-ad-to-authorize-access-to-azure-blob-storage.
